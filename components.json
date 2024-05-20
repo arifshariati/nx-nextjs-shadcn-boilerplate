@@ -9,8 +9,8 @@
     "cssVariables": true
   },
   "aliases": {
-    "components": "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn/lib",
-    "ui": "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn/lib",
-    "utils": "@nx-nextjs-shadcn-boilerplate/ui/utils"
+    "components": "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn",
+    "ui": "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn",
+    "utils": "@nx-nextjs-shadcn-boilerplate/ui/utils/tailwind"
   }
 }

@@ -11,20 +11,19 @@ import {
   Label,
   Textarea,
 } from '@nx-nextjs-shadcn-boilerplate/ui/components/shadcn';
+import {
+  SampleTitleContainer,
+  Stack,
+} from '@nx-nextjs-shadcn-boilerplate/ui/components';
 
-const Stack = ({ children }: { children: React.ReactNode }) => (
-  <div className="flex flex-col gap-2">{children}</div>
-);
 const SamplePage = () => {
   return (
     <section className="flex flex-col gap-y-2">
-      <div className="flex flex-col bg-slate-100 p-10 rounded-xl">
-        <h2 className="text-2xl font-bold">Shadcn with Next JS and Nx</h2>
-        <p>
-          This is the minimlist configuraiton for Shadcn to work with Next JS in
-          Nx monorepos.
-        </p>
-      </div>
+      <SampleTitleContainer
+        title="Shadcn and Next JS integration with Nx monorepo"
+        subTitle="This is the minimlist configuraiton for Shadcn to work with Next JS in
+        Nx monorepos"
+      />
       <div className="flex flex-col my-10 gap-4">
         <Stack>
           <h2 className="text-2xl font-bold">Shadcn with Next JS and Nx</h2>

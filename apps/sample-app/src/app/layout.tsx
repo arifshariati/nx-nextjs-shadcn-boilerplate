@@ -2,7 +2,7 @@ import './global.css';
 import { Metadata } from 'next';
 import { siteConfig } from '../config/site';
 import { fontRoboto } from '../config/fonts';
-import { cn } from '@nx-nextjs-shadcn-boilerplate/ui/utils';
+import { cn } from '@nx-nextjs-shadcn-boilerplate/ui/utils/tailwind';
 
 export const metadata: Metadata = {
   title: siteConfig.name,

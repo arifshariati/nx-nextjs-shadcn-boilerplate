@@ -1,5 +1,5 @@
 {
-  "name": "@nx-nextjs-shadcn-boilerplate/ui/utils",
+  "name": "@nx-nextjs-shadcn-boilerplate/utils",
   "version": "0.0.1",
   "dependencies": {
     "@swc/helpers": "~0.5.2"

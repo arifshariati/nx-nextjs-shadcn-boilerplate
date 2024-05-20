@@ -15,14 +15,14 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn": [
-        "libs/ui/components/shadcn/src/index.ts"
+      "@nx-nextjs-shadcn-boilerplate/ui/components": [
+        "libs/ui/components/src/index.ts"
       ],
-      "@nx-nextjs-shadcn-boilerplate/ui/components/shadcn/*": [
-        "libs/ui/components/shadcn/src/*"
+      "@nx-nextjs-shadcn-boilerplate/ui/components/*": [
+        "libs/ui/components/src/*"
       ],
-      "@nx-nextjs-shadcn-boilerplate/ui/utils": ["libs/ui/utils/src/index.ts"],
-      "@nx-nextjs-shadcn-boilerplate/ui/utils/*": ["libs/ui/utils/src/*"]
+      "@nx-nextjs-shadcn-boilerplate/ui/utils/*": ["libs/ui/utils/src/*"],
+      "@nx-nextjs-shadcn-boilerplate/ui/utils": ["libs/ui/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

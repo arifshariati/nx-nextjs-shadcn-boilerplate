@@ -1,1 +1,3 @@
-export * from './lib/cn';
+// default exports
+const abc = 2;
+export default abc;
