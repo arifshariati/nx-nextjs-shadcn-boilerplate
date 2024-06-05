@@ -31,6 +31,8 @@ npm run dev
 
 #### Adding Shadcn components
 
+> Entire Shadcn components have been added. 
+
 `Shadcn` components are housed inside `libs/ui/components/shadcn/src/lib` folder. For adding Shadcn components you can use regular component installation commands available on Shadcn website. Let's say we want to have Shadcn Button component,
 
 ```
